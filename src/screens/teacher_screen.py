@@ -35,7 +35,7 @@ def teacher_screen_login():
 
     st.divider()
 
-    btnc1, btnc2 = st.coloumns(2, gap="large")
+    btnc1, btnc2 = st.columns(2, gap="large")
     with btnc1:
         st.button("Login", icon=":material/passkey:", shortcut="control+enter",width="stretch")
 
@@ -74,7 +74,7 @@ def teacher_screen_register():
 
     st.divider()
 
-    btnc1, btnc2 = st.coloumns(2, gap="large")
+    btnc1, btnc2 = st.columns(2, gap="large")
     with btnc1:
         st.button("Register now", icon=":material/passkey:", shortcut="control+enter",width="stretch")
 
