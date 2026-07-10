@@ -1,1 +1,10 @@
 venv/
+.env
+.vscode
+
+*.pyc
+.Ds_Store
+__pycache__/**
+.streamlit/
+
+dist/
