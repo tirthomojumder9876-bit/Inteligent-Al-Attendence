@@ -1,0 +1,5 @@
+timestamp,claimed_id,predicted_id,confidence,status
+2026-08-14 03:45:35,Student_01,Student_01,0.868,Present
+2026-08-14 03:45:40,Student_01,Student_02,0.873,Rejected
+2026-08-14 20:01:01,Student_10,Student_10,0.881,Present
+2026-08-14 20:02:11,Student_08,Student_03,0.183,Rejected
