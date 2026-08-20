@@ -17,21 +17,23 @@ Critically, **neither pipeline writes to the database on its own.** Every automa
 
 ## Key Features
 
--Face-ID login & registration for students — new faces trigger an on-the-spot profile creation flow (name + optional voice sample)
--Dual biometric attendance capture — teachers can run face analysis, voice analysis, or both, per session
--Teacher dashboard— create subjects, share join codes/QR codes, take attendance, and review historical records
--Student dashboard — view enrolled subjects and personal attendance history
--Mandatory human review before any attendance record is saved — no automated decision is ever final
-=Secure by design — bcrypt-hashed teacher passwords, and only numerical embeddings (never raw photos/audio) are stored in the database
+-  **Face-ID login & registration** for students — new faces trigger an on-the-spot profile creation flow (name + optional voice sample)
+-  **Dual biometric attendance capture** — teachers can run face analysis, voice analysis, or both, per session
+-  **Teacher dashboard** — create subjects, share join codes/QR codes, take attendance, and review historical records
+-  **Student dashboard** — view enrolled subjects and personal attendance history
+-  **Mandatory human review** before any attendance record is saved — no automated decision is ever final
+-  **Secure by design** — bcrypt-hashed teacher passwords, and only numerical embeddings (never raw photos/audio) are stored in the database
 
 ## Tech Stack
 
- Frontend ->  Streamlit 
- Face recognition -> dlib, face_recognition_models, scikit-learn 
- Voice recognition ->  Resemblyzer, librosa, PyTorch 
- Backend ->  Supabase (PostgreSQL) 
- Auth ->  bcrypt 
- Utilities -> segno (QR codes), pandas, Pillow 
+| Layer | Technology |
+|---|---|
+| Frontend | Streamlit |
+| Face recognition | dlib, face_recognition_models, scikit-learn |
+| Voice recognition | Resemblyzer, librosa, PyTorch |
+| Backend | Supabase (PostgreSQL) |
+| Auth | bcrypt |
+| Utilities | segno (QR codes), pandas, Pillow |
 
 ## Project Context
 
