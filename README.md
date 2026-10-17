@@ -124,8 +124,8 @@ Developed as a capstone course project for **CSE445 (Machine Learning — Sectio
 
 **Group 3 Contributors:**
 * **Tirtho Mojumdar** — [@tirthomojumder9876-bit](https://github.com/tirthomojumder9876-bit)
-* **Ramisa Anjum**
-* **Md Rakibul Hasan**
+* **Ramisa Anjum** 
+* **Md Rakibul Hasan** - [@MdRakibul726](https://github.com/MdRakibul726)
 * **Hafsa Amin Ela**
 
 ---
